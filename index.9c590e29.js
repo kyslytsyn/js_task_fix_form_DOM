@@ -1,0 +1,2 @@
+function e(e){for(var t=e,c=1;c<e.length;c++)t=t[c]===t[c].toUpperCase()?"".concat(t[0].toUpperCase()).concat(t.slice(1,c)," ").concat(t.slice(c).toLowerCase()):"".concat(t[0].toUpperCase()).concat(t.slice(1));return t}document.querySelectorAll("input").forEach(function(t){var c=document.createElement("label");c.className="label-field",c.htmlFor=t.id,c.textContent=e(t.name),t.before(c),t.placeholder=e(t.name)});
+//# sourceMappingURL=index.9c590e29.js.map
